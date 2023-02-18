@@ -5,3 +5,31 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: anekbold;
+    src: url("/assets/fonts/static/AnekBangla/AnekBangla-Light.ttf");
+}
+
+.parallax-page{
+    color: #eae5e1;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 100px;
+}
+
+.parallax-unit{
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+.parallax-layer{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ankebold;
+}
