@@ -6,30 +6,141 @@
 }
 
 @font-face {
-    font-family: anekbold;
-    src: url("/assets/fonts/static/AnekBangla/AnekBangla-Light.ttf");
+    font-family: Roboto-Black;
+    src: url("/assets/fonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: Roboto-BlackItalic;
+    src: url("/assets/fonts/Roboto/Roboto-BlackItalic.ttf");
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url("/assets/fonts/Roboto/Roboto-BoldItalic.ttf");
+}
+@font-face {
+    font-family: Roboto-Italic;
+    src: url("/assets/fonts/Roboto/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url("/assets/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url("/assets/fonts/Roboto/Roboto-LightItalic.ttf");
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url("/assets/fonts/Roboto/Roboto-MediumItalic.ttf");
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("/assets/fonts/Roboto/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: Roboto-ThinItalic;
+    src: url("/assets/fonts/Roboto/Roboto-ThinItalic.ttf");
 }
 
-.parallax-page{
-    color: #eae5e1;
-    width: 100vw;
+
+.img{
+    width: 800px;
+}
+
+.img-man{
+    width: 90px
+}
+.img-robot{
+    width: 50px;
+}
+.img-women{
+    width: 120px;
+}
+
+@font-face {
+    font-family: ;
+    src: url("");
+}
+
+.parallax-wrapper{
+    color: white;
+    font-size: 3rem;
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 100px;
+    perspective: 300px;
 }
 
-.parallax-unit{
+.parallax-group{
     position: relative;
     height: 100vh;
     transform-style: preserve-3d;
 }
 
-.parallax-layer{
+.parallax-layer {
     position: absolute;
     inset: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: ankebold;
 }
+
+
+.intro-screen{
+    height: 100vh;
+    background-color: #f6f5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.outro-screen{
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.base-layer{
+    transform: translatez(-300px) scale(2);
+}
+
+.mid-layer{
+    transform: translateZ(0) scale();
+}
+
+.top-layer{
+    transform: translateZ(210px) scale(0.3);
+}
+
+
+.group1{
+    z-index: -1;
+}
+.group1 > .base-layer{
+    background-color: crimson;
+}
+
+.group2{
+    z-index: -;
+}
+.group2 > .mid-layer{
+    background-color: greenyellow;
+}
+
