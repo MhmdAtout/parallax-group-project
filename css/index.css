@@ -1,3 +1,4 @@
+/* reset css */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* importing fonts */
 @font-face {
     font-family: Roboto-Black;
     src: url("/assets/fonts/Roboto/Roboto-Black.ttf");
@@ -54,28 +56,9 @@
     src: url("/assets/fonts/Roboto/Roboto-ThinItalic.ttf");
 }
 
-
-.img{
-    width: 800px;
-}
-
-.img-man{
-    width: 90px
-}
-.img-robot{
-    width: 50px;
-}
-.img-women{
-    width: 120px;
-}
-
-@font-face {
-    font-family: ;
-    src: url("");
-}
-
+/* main divs styling for parallax effect */
 .parallax-wrapper{
-    color: white;
+    color: #f6f5f4;
     font-size: 3rem;
     height: 100vh;
     overflow-x: hidden;
@@ -86,61 +69,7 @@
 .parallax-group{
     position: relative;
     height: 100vh;
+    width: 100vw;
     transform-style: preserve-3d;
 }
-
-.parallax-layer {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.intro-screen{
-    height: 100vh;
-    background-color: #f6f5f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-.outro-screen{
-    height: 100vh;
-    background-color: teal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.base-layer{
-    transform: translatez(-300px) scale(2);
-}
-
-.mid-layer{
-    transform: translateZ(0) scale();
-}
-
-.top-layer{
-    transform: translateZ(210px) scale(0.3);
-}
-
-
-.group1{
-    z-index: -1;
-}
-.group1 > .base-layer{
-    background-color: crimson;
-}
-
-.group2{
-    z-index: -;
-}
-.group2 > .mid-layer{
-    background-color: greenyellow;
-}
-
+/*  */
