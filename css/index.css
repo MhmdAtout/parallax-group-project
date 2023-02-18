@@ -73,3 +73,14 @@
     transform-style: preserve-3d;
 }
 /*  */
+
+/* layers perspective */
+.mid-layer{
+    transform: translateZ(0) scale();
+}
+.top-layer{
+    transform: translateZ(210px) scale(0.3);
+}
+.topper-layer{
+    transform: translateZ(300px) scale(0.5);
+}
