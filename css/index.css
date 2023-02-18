@@ -84,3 +84,47 @@
 .topper-layer{
     transform: translateZ(300px) scale(0.5);
 }
+
+/* Intro Screen */
+.intro-screen{
+    height: 150vh;
+    width: 100vw;
+    background-color: #f6f5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: +1;
+}
+
+.image-layer{
+    position: absolute;
+    width: 80%;
+    top: 38%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.text-layer {
+    padding: 100px;
+    position: absolute;
+    top: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 7rem;
+}
+.word1{
+    font-family: Roboto-Bold;
+}
+.word2{
+    font-family: Roboto-Thin;
+}
+.intro-brain{
+    width: 27%;
+}
+/* END */
+
