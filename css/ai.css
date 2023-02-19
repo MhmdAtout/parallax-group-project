@@ -12,12 +12,8 @@
     background-attachment: fixed;
     background-size: cover;
   }
-  .last-page {
-    background-image: url('../assets/images/AtoutM/Robot Computer/1.jpg');
-  }
   .intro, .end {
     width: 600px;
-    color: black;
     margin-left:95px;
     text-align: justify;
   }
