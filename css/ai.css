@@ -3,8 +3,12 @@
     border: 0;
     box-sizing: border-box;
 }
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("/assets/fonts/Roboto/Roboto-Thin.ttf");
+}
 .first-page, .last-page  {
-    background-image: url('1.jpg');
+    background-image: url('../assets/images/AtoutM/Robot Computer/1.jpg');
     height: 100vh;
     display: flex;
     justify-content: left;
@@ -13,7 +17,7 @@
     background-size: cover;
   }
   .last-page {
-    background-image: url('1.jpg');
+    background-image: url('../assets/images/AtoutM/Robot Computer/1.jpg');
   }
   .intro, .end {
     width: 600px;
@@ -27,20 +31,23 @@
     justify-content: space-around;
     align-items: flex-end;
     height: 150vh;
-    background-image: url('33.jpg');
+    background-image: url('../assets/images/AtoutM/Robot Computer/33.jpg');
     background-size: cover;	
   }
   .sections {
     width: 50%;
     text-align: justify;
-    margin-right:70px;
+    margin-right:30px;
   }
   .intro > h1{
-  font-size: 3em;}
+    font-family: Roboto-Bold;
+    font-size: 3em;}
   .sections p, .sections ul{
-  font-family:cursive;
+  font-family:Roboto-Regular;
   }
   h1{
-  font-family:fantasy;}
-  .sections h1{
-  color:skyblue;}
+    font-family:Roboto-Medium;}
+  .sections h1, .intro h2, .end p, .end a{
+    font-family: Roboto-Thin;
+    color:skyblue;}
+ 
