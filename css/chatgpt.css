@@ -4,4 +4,38 @@
     border: 0;
     box-sizing: border-box;
 }
+.pimg1{
+    
+    background-image: url('background.avif');
+   
+    min-height: 100%;
+  
+}
+.pimg2{
+   
+    background-image: url('chatgpt-ai-robot-answering-questions-laptop-generative-ai_634358-273.avif');
+    min-height: 500px;
+    min-width: 100%;
+    background-position: contain;
+}
+.pimg3{
+   
+    background-image: url('chatgpt-using-chatting-artificial-intelligence-chatbot-developed-by-openai_278224-105.avif');
+    min-height: 400px;
+    min-width: 100%;
+}
+.pimg4{
+    
+    background-image: url('chatgpt-ai-robot-answering-questions-laptop_777271-4020.avif');
+    padding: 50px 80px;
+    min-height:auto;
+  
+}
+.pimg5{
+    
+    background-image: url('ChatGPT img5');
+    padding: 50px 80px;
+    min-height:auto;
+  
+}
 
