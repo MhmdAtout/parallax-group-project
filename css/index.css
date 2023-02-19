@@ -225,3 +225,28 @@ a{
     margin-top: 90px;
 }
 /*  */
+
+/*  */
+.animation2{
+    height: 79vh;
+    background-color: #f6f5f4;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+.chip{
+    position: absolute;
+    top: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brains{
+    position: absolute;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*  */
