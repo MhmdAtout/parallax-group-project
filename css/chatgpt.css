@@ -6,36 +6,89 @@
 }
 .pimg1{
     
-    background-image: url('background.avif');
+    background-image: url("/assets/images/AtoutM/Robot Computer/");
    
     min-height: 100%;
   
 }
 .pimg2{
-   
-    background-image: url('chatgpt-ai-robot-answering-questions-laptop-generative-ai_634358-273.avif');
+    background-image: url('');
+    background-image: url('');
     min-height: 500px;
     min-width: 100%;
     background-position: contain;
 }
 .pimg3{
    
-    background-image: url('chatgpt-using-chatting-artificial-intelligence-chatbot-developed-by-openai_278224-105.avif');
+    background-image: url('ChatGPT img3.jpg');
     min-height: 400px;
     min-width: 100%;
 }
 .pimg4{
     
-    background-image: url('chatgpt-ai-robot-answering-questions-laptop_777271-4020.avif');
+    background-image: url('ChatGPT img4.jpg');
     padding: 50px 80px;
     min-height:auto;
   
 }
 .pimg5{
     
-    background-image: url('ChatGPT img5');
+    background-image: url('ChatGPT img5.jpg');
     padding: 50px 80px;
     min-height:auto;
   
 }
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity:0.70;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg4{
+    position:relative;
+    opacity:0.90;
+    background-position: right;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+   
+}
+.pimg5{
+    position:relative;
+    opacity:0.90;
+    background-position: right;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+   
+}
+.section{
+    text-align:left;
+    padding: 50px 80px;
+    width:100vw;
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext.border{
+    background-color: #111;
+    color:#fff;
+    padding: 20px;
+}
 
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+}
