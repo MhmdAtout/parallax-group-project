@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 .pimg1{
-    
     background-image: url("/assets/images/AtoutM/images/background.avif");
-    height:100vh;
+    height: 100vh;
 }
 .pimg2{
     background-image: url('/assets/images/AtoutM/images/ChatGPT\ img2.jpg');
@@ -17,7 +16,7 @@
 }
 .pimg3{
    
-    background-image: url('/assets/images/AtoutM/images/ChatGpt\ img3.jpg');
+    background-image: url("/assets/images/AtoutM/images/ChatGpt\ img3.jpg");
     min-height: 400px;
     min-width: 100%;
 }
@@ -26,14 +25,12 @@
     background-image: url('/assets/images/AtoutM/images/ChatGPT\ img4.jpg');
     padding: 50px 80px;
     min-height:auto;
-  
 }
 .pimg5{
-    
     background-image: url('/assets/images/AtoutM/images/ChatGPT\ img5.jpg');
     padding: 50px 80px;
     min-height:auto;
-    width: 50%; 
+    width: 50%;  
 }
 .pimg1, .pimg2, .pimg3{
     position: relative;
@@ -49,8 +46,9 @@
     background-position: right;
     background-size:auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;   
+    background-attachment: fixed;  
     width: 50%; 
+   
 }
 .pimg5{
     position:relative;
@@ -67,6 +65,7 @@
     width:100vw;
     display: flex;
     justify-content: center;
+    
 }
 .text{
     width: 30%;
@@ -85,8 +84,8 @@
     font-size: 60px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    z-index: -1;
 }
-
 
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3, .pimg4{
