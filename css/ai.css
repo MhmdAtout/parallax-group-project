@@ -2,11 +2,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-}
-@font-face {
-  font-family: Roboto-Thin;
-  src: url("/assets/fonts/Roboto/Roboto-Thin.ttf");
-}
+ }
 .first-page, .last-page  {
     background-image: url('../assets/images/AtoutM/Robot Computer/1.jpg');
     height: 100vh;
