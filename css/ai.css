@@ -1,7 +1,46 @@
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
-
+.first-page, .last-page  {
+    background-image: url('1.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .last-page {
+    background-image: url('1.jpg');
+  }
+  .intro, .end {
+    width: 600px;
+    color: black;
+    margin-left:95px;
+    text-align: justify;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 150vh;
+    background-image: url('33.jpg');
+    background-size: cover;	
+  }
+  .sections {
+    width: 50%;
+    text-align: justify;
+    margin-right:70px;
+  }
+  .intro > h1{
+  font-size: 3em;}
+  .sections p, .sections ul{
+  font-family:cursive;
+  }
+  h1{
+  font-family:fantasy;}
+  .sections h1{
+  color:skyblue;}
