@@ -4,7 +4,7 @@
     box-sizing: border-box;
  }
 .first-page, .last-page  {
-    background-image: url('../assets/images/AtoutM/Robot Computer/1.jpg');
+    background-image: url('../assets/images/AtoutM/images/1.jpg');
     height: 100vh;
     display: flex;
     justify-content: left;
@@ -13,7 +13,7 @@
     background-size: cover;
   }
   .last-page {
-    background-image: url('../assets/images/AtoutM/Robot Computer/1.jpg');
+    background-image: url('../assets/images/AtoutM/images/1.jpg');
   }
   .intro, .end {
     width: 600px;
@@ -27,7 +27,7 @@
     justify-content: space-around;
     align-items: flex-end;
     height: 150vh;
-    background-image: url('../assets/images/AtoutM/Robot Computer/33.jpg');
+    background-image: url('../assets/images/AtoutM/images/33.jpg');
     background-size: cover;	
   }
   .sections {
