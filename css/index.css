@@ -189,12 +189,14 @@
 }
 .title-ai{
     color: #333;
+    background-color: #f6f5f4;
     font-family: Roboto-Medium;
     font-size: 6rem;
     text-align: center;
 }
 .text-ai{
-    
+    position: relative;
+    top: 15%;
     color: #333;
     font-family: Roboto-Thin;
     width: 70%;
@@ -221,7 +223,7 @@ a{
     margin-top: 50px;
 }
 .more-chatgpt{
-    font-size: 5rem;
+    font-size: 1.3rem;
     margin-top: 90px;
 }
 /*  */
