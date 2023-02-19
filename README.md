@@ -20,3 +20,6 @@
 
 ### Collaborators :
 **[Mirvat Barakat]() • [Mohamad Husseini](https://github.com/Mhmd-Husseini)**
+
+### Resources:
+**[Youtube Video](https://youtu.be/6CQ7DYni7Bg) • [Youtube Video](https://youtu.be/ln5BWnYMSQA) • [Youtube Video](https://youtu.be/mxHoPYFsTuk) •[Youtube Video](https://youtu.be/rLrLJQBG_qo)**
