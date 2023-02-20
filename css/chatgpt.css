@@ -82,10 +82,16 @@
     height: 150px;
     font-family: Roboto-Medium;
     text-align: center;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size:larger;
     background-color: #f4f4f4;
     color: #666 ;
+}
+.text11{
+width:80%;
 }
 .ptext{
     position: absolute;
