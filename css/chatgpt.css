@@ -4,6 +4,16 @@
     border: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: roboto-bold;
+    src: url("/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url("/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
 .pimg1{
     background-image: url('../assets/images/AtoutM/images/background.avif');
     height: 100vh;
@@ -67,7 +77,6 @@
     padding: 50px 80px;
     width:100vw;
     display: flex;
-    font-family: Roboto-Medium ;
     font-size: larger;
     text-justify: auto;  
     background-color: #f4f4f4;
@@ -80,7 +89,6 @@
 }
 .text1{
     height: 150px;
-    font-family: Roboto-Medium;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -91,7 +99,7 @@
     color: #666 ;
 }
 .text11{
-width:80%;
+    width:80%;
 }
 .ptext{
     position: absolute;
@@ -100,7 +108,6 @@ width:80%;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
-    font-family: Roboto-Bold;
     font-size: 60px;
     letter-spacing: 8px;
     z-index: -1;
