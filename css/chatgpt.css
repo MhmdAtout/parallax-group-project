@@ -64,8 +64,9 @@
     padding: 50px 80px;
     width:100vw;
     display: flex;
-    justify-content: center;
+   
     font-family: Roboto-Light ;
+    text-justify: auto;
     
 }
 .text{
